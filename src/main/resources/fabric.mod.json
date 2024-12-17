@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "fireinthehole",
+  "version": "${version}",
+  "name": "Fire in the Hole",
+  "description": "Система ежедневных огоньков для Minecraft",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fireinthehole/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.marwy.Fireinthehole"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
